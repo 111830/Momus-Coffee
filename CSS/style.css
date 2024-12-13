@@ -1,0 +1,78 @@
+@media (max-width: 768px) {
+    body {
+      background-color: rgb(0, 0, 0);
+      font-size: 16px;
+      height: 100vh;
+      margin: 0;
+    }
+  }
+  
+  @media (min-width: 768px) {
+ 
+    body {
+      display: none; 
+    }
+}
+
+.Emri{
+    text-align: center;
+    color: white;
+    position: relative; 
+    margin: 20px;
+}
+
+.Emri h1{
+    margin: 0%;
+}
+
+.Emri p{
+    margin: 0%;
+}
+
+.butoni {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.butoni .element button{
+    width: 100%;
+    margin-bottom: 15px;
+    width: 40%;
+    border-radius: 50px;
+    border-style: none;
+    margin: 12px;
+    padding: 12px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.butoni .element .para{
+    background-color: #f0b27a ;
+    color: white;
+}
+
+.butoni .element  .para:hover{
+    background-color: #f5cba7;
+    transform: scale(0.95);
+}
+
+.butoni .element  .para:active{
+    background-color: #fae5d3 ;
+    transform: scale(0.95);
+}
+
+.butoni .element  .dyta:hover{
+    background-color: rgb(221, 221, 221);
+    transform: scale(0.95);
+}
+
+.butoni .element  .dyta:active{
+    background-color: #b6b6b6 ;
+    transform: scale(0.95);
+}
+
+.foto img{
+    border-radius: 30px;
+    margin-top: 60px;
+}

@@ -1,0 +1,70 @@
+@media (max-width: 768px) {
+    body {
+      background-color: rgb(0, 0, 0);
+      font-size: 16px;
+      height: 100vh;
+      margin: 0;
+    }
+  }
+  
+  @media (min-width: 768px) {
+ 
+    body {
+      display: none; 
+    }
+}
+
+h1{
+    color: white;
+    text-align: center;
+    text-shadow: 3px 2px 3px hsla(0, 0%, 100%, 0.534);
+}
+
+.rreshta{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.gjitha{
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.gjitha .shkrime{
+    margin-left: 7px;
+}
+
+.gjitha .images img{
+    height: 110px;
+    width: 110px;
+    border-radius: 10px;
+}
+
+.gjitha .shkrime > p{
+    color: white;
+    text-shadow: 3px 2px 3px hsla(0, 0%, 100%, 0.534);
+    font-family: 'Roboto', sans-serif;
+    margin:5px 5px 5px 0;
+    font-size: 16px;
+}
+
+.gjitha .shkrime .butoni button{
+    color: white;
+    background-color: #f0b27a;
+    margin-bottom: 5px;
+    width: 70px;
+    border-radius: 50px;
+    border-style: none;
+    margin-top: 8px;
+    padding: 8px;
+    font-size: 5px;
+    cursor: pointer;
+}
+
+.gjitha .shkrime .butoni .para{
+    font-size: 10px;
+}
