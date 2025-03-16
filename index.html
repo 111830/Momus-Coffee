@@ -1,43 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coffee Momus</title>
-    <link href="CSS/style.css" rel="stylesheet" />
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coffee Momus</title>
+  <link href="CSS/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.1/css/all.css" />
+</head>
+
+<body>
+  <center>
+    <img src="Image/Untitled design 1 (1).png" alt="Logo" height="250px" width="260px" />
+  </center>
+
+  <div class="Emri">
+    <h1>Coffee Momus</h1>
+    <p>Bar Restorant</p>
+  </div>
+
+  <div class="butoni">
+    <div class="element">
+      <a href="index1.html">
+        <button class="para"><strong>Bar</strong></button>
+      </a>
+    </div>
+    <div class="element">
+      <a href="index2.html">
+        <button class="dyta"><strong>Restorant</strong></button>
+      </a>
+    </div>
+  </div>
+
+  <div class="foto" id="fotoDiv" style="display: none;">
     <center>
-      <img
-        src="Image/Untitled design 1 (1).png"
-        alt="Logo"
-        height="250px"
-        width="260px"
-      />
+      <a href="">
+        <img src="Image/1.png" alt="Foto e Orarit" id="fotoImg" width="370px" />
+      </a>
     </center>
+  </div>
 
-    <div class="Emri">
-      <h1>Coffee Momus</h1>
-      <p>Bar Restorant</p>
-    </div>
-
-    <div class="butoni">
-      <div class="element">
-        <a href="index1.html">
-          <button class="para"><strong>Bar</strong></button>
+  <div class="rethnesh">
+    <p>Contact</p>
+    <div class="icons">
+        <a href="#">
+            <i class="fa-brands fa-instagram"></i>
         </a>
-      </div>
-      <div class="element">
-        <a href="index2.html">
-          <button class="dyta"><strong>Restorant</strong></button>
+        <a href="#">
+            <i class="fa-brands fa-google"></i>
         </a>
-      </div>
+        <a href="tel:0672021020" class="phone-container">
+            <i class="fa-solid fa-phone"></i>
+        </a>
     </div>
+</div>
 
-    <div class="foto" id="fotoDiv">
-      <center>
-        <img src="Image/1.png" alt="Foto e Orarit" id="foto" width="370px" />
-      </center>
-    </div>
-  </body>
+  <script>
+    var tani = new Date();
+    var ora = tani.getHours();
+    console.log("Ora aktuale është:", ora);
+
+    if (ora >= 7 && ora < 12) {
+      document.getElementById("fotoDiv").style.display = "block";
+    }
+    else {
+      document.getElementById("fotoDiv").style.display = "none";
+    }
+  </script>
+</body>
+
 </html>

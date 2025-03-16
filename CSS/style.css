@@ -76,3 +76,55 @@
     border-radius: 30px;
     margin-top: 60px;
 }
+.rethnesh {
+    background: linear-gradient(135deg, #f0b27a, #f39c12);
+    padding: 1px 20px; /* Hapësirë lart-poshtë, maj-djathtë */
+    text-align: center;
+    color: #fff;
+    margin-top: 80px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    box-shadow: 0 -5px 30px rgba(0, 0, 0, 0.2);
+  }
+
+  .rethnesh h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .rethnesh p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 30px; 
+    margin-bottom: 20px;
+  }
+
+  .icons a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px; 
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+
+  .icons a:hover {
+    color: #555;  
+    transform: scale(1.2) rotate(-5deg);
+  }
+  .phone-number {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+
+  .phone-number i {
+    margin-right: 10px;
+    color: #fff;
+  }
